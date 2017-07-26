@@ -46,6 +46,11 @@ inoremap ( ()<ESC>i
 inoremap [ []<ESC>i
 inoremap { {}<ESC>i
 
+"代码折叠
+set fdm=syntax
+
+set nofoldenable
+
 
 
 
