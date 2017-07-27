@@ -1,3 +1,9 @@
+"去除vi一致性模式
+set nocompatible
+
+"显示输入的命令
+set showcmd
+
 "显示行号
 set number
 
@@ -44,13 +50,28 @@ map <C-m><Space> gg=G
 "自动补全括号
 inoremap ( ()<ESC>i
 inoremap [ []<ESC>i
-inoremap { {}<ESC>i
+inoremap { {}<ESC>i<ENTER><ESC>O
+inoremap " ""<ESC>i
+inoremap ' ''<ESC>i
 
 "代码折叠
 set fdm=syntax
 
+"警用自动折叠
 set nofoldenable
 
+"颜色主题
+colorscheme desert
 
+"设置编码，防止乱码
+set fileencodings=ucs-bom,utf-8,utf-16,gbk,big5,gb18030,latin1
 
+"隐藏工具栏和菜单栏
+set guioptions-=T
+set guioptions-=m
+
+"gvim设置半透明
+if executable("vimtweak.dll")
+    autocmd guienter * call libcallnr("vimtweak","SetAlpha",222)
+endif
 
