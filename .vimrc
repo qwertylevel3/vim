@@ -61,10 +61,10 @@ set fdm=syntax
 set nofoldenable
 
 "颜色主题
-colorscheme desert
+colorscheme evening
 
 "设置编码，防止乱码
-set fileencodings=ucs-bom,utf-8,utf-16,gbk,big5,gb18030,latin1
+set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1
 
 "隐藏工具栏和菜单栏
 set guioptions-=T
