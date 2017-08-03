@@ -42,17 +42,17 @@ set wildmenu
 set completeopt=preview,menu
 
 "搜索忽略大小写
-set ignorecase
+"set ignorecase
 
 "个人用的整理代码快捷键
 map <C-m><Space> gg=G
 
 "自动补全括号
-inoremap ( ()<ESC>i
-inoremap [ []<ESC>i
-inoremap { {}<ESC>i<ENTER><ESC>O
-inoremap " ""<ESC>i
-inoremap ' ''<ESC>i
+"inoremap ( ()<ESC>i
+"inoremap [ []<ESC>i
+"inoremap { {}<ESC>i<ENTER><ESC>O
+"inoremap " ""<ESC>i
+"inoremap ' ''<ESC>i
 
 "代码折叠
 set fdm=syntax
