@@ -61,7 +61,7 @@ set fdm=syntax
 set nofoldenable
 
 "颜色主题
-colorscheme evening
+colorscheme blackboard
 
 "设置编码，防止乱码
 set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1
